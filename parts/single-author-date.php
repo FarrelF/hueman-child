@@ -7,7 +7,7 @@ $published_date = get_the_date( get_option('date_format') );
 <p class="post-byline"><?php _e('by','hueman'); ?>
    <span class="vcard author">
      <span class="fn">
-         <?php /*the_author_posts_link();*/ echo "<a href='https://farrel-f.id' rel='noopener'>Farrel Franqois</a>";?>
+         <?php /*the_author_posts_link();*/ echo "<a href='https://farrelf.blog' rel='noopener'>Farrel Franqois</a>";?>
      </span>
    </span> &middot;
     <?php if ( hu_is_checked('structured-data') ) : ?>

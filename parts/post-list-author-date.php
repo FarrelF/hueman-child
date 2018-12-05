@@ -10,7 +10,7 @@
 <?php if ( hu_is_checked('structured-data') ) : ?>
   <p class="post-byline" style="display:none">&nbsp;<?php _e('by','hueman'); ?>
     <span class="vcard author">
-      <span class="fn"><?php /*the_author_posts_link();*/ echo "<a href='https://farrel-f.id' rel='noopener'>Farrel Franqois</a>";?></span>
+      <span class="fn"><?php /*the_author_posts_link();*/ echo "<a href='https://farrelf.blog' rel='noopener'>Farrel Franqois</a>";?></span>
     </span> &middot; Published <span class="published"><?php echo get_the_date( get_option('date_format') ); ?></span>
     <?php if( get_the_modified_date() != get_the_date() ) : ?> &middot; Last modified <span class="updated"><?php the_modified_date( get_option('date_format') ); ?></span><?php endif; ?>
   </p>
