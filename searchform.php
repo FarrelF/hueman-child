@@ -1,4 +1,4 @@
-<form method="get" class="searchform themeform" action="https://cse.farrel-f.id/">
+<form method="get" class="searchform themeform" action="https://cse.farrelf.blog/">
 	<div>
 	    <input type="hidden" name="cof" value="FORID:10"/>
 	    <input type="hidden" name="cx" value="partner-pub-2432124491852819:4493745682" />

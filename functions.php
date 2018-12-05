@@ -16,6 +16,6 @@ add_action('parse_query', 'disable_search');
 add_filter( 'get_search_form', function() { return null;} );
 
 function image_cdn_sitemap_fix($uri) {
-    return str_replace( 'https://farrel-f.id', 'https://stathicc.farrel-f.id', $uri );
+    return str_replace( 'https://s.wpinter.com', 'https://cdn.staticaly.com/img/farrelf.wpinter.com', $uri );
 }
 add_filter('wpseo_xml_sitemap_img_src', 'image_cdn_sitemap_fix');
