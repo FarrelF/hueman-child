@@ -31,3 +31,9 @@ function emoji_svg_cdn_url()
   return $default_url = "https://cdn.staticaly.com/gh/twitter/twemoji/v11.2.0/2/svg/";
 }
 add_filter('emoji_svg_url', 'emoji_svg_cdn_url');
+
+function emoji_png_cdn_url()
+{
+  return $default_url = "https://cdn.staticaly.com/gh/twitter/twemoji/v11.2.0/2/72x72/";
+}
+add_filter('emoji_url', 'emoji_png_cdn_url');
